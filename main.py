@@ -1,21 +1,22 @@
 
 from fastapi import FastAPI, HTTPException
-import pickle
+import joblib
 import numpy as np
 from pydantic import BaseModel
 import pandas as pd
 import threading
 
-# Chemin absolu vers les fichiers
-CSV_PATH = 'C:/Users/Utilisateur/app_train_domain.csv'
-PIPELINE_PATH = 'C:/Users/Utilisateur/pipeline.joblib'
+
+# Chemin  vers les fichiers
+CSV_PATH = './small_data.csv'
+PIPELINE_PATH = './pipeline.joblib'
 
 # Charger le fichier CSV
 df = pd.read_csv(CSV_PATH)
 
 # Charger le pipeline
 with open(PIPELINE_PATH, 'rb') as f:
-    pipeline = pickle.load(f)
+    pipeline = joblib.load(f)
 
 # FastAPI app
 app = FastAPI()
