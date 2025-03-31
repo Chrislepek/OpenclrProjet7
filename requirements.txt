@@ -23,3 +23,6 @@ joblib==1.2.0
 
 # Bibliothèque pour la gestion des modèles de machine learning
 scikit-learn==1.2.2
+
+#streamlit
+streamlit==1.440

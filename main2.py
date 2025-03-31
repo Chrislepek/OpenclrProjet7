@@ -8,8 +8,8 @@ import threading
 
 
 # Chemin  vers les fichiers
-CSV_PATH = 'C:/Users/Win10/Documents/OpenclrProjet7/small_data.csv'
-PIPELINE_PATH = 'C:/Users/Win10/Documents/OpenclrProjet7/pipeline.joblib'
+CSV_PATH = '.small_data.csv'
+PIPELINE_PATH = './pipeline.joblib'
 
 # Charger le fichier CSV
 df = pd.read_csv(CSV_PATH)
