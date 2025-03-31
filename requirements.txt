@@ -1,28 +1,27 @@
+setuptools
+
 # FastAPI et Uvicorn pour l'API
-fastapi==0.95.1
-uvicorn==0.22.0
+fastapi
+uvicorn
 
 # Bibliothèques pour la manipulation des données
-pandas==2.0.2
-numpy==1.24.3
+pandas
+numpy
 
 # Bibliothèque pour la sérialisation des objets Python
-pydantic==1.10.7
+pydantic
 
 # Bibliothèque pour la sérialisation et la désérialisation des objets Python
-pickle4==0.0.1
+pickle4
 
 # Bibliothèque pour le threading (si nécessaire)
-threading==0.0.1
+threading
 
 # Bibliothèque pour la gestion des modèles de machine learning
-scikit-learn==1.2.2
+scikit-learn
 
 # Bibliothèque pour la gestion des fichiers joblib
-joblib==1.2.0
-
-# Bibliothèque pour la gestion des modèles de machine learning
-scikit-learn==1.2.2
+joblib
 
 #streamlit
-streamlit==1.440
+streamlit
