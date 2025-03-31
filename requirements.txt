@@ -7,7 +7,7 @@ pandas==2.0.2
 numpy==1.24.3
 
 # Bibliothèque pour la sérialisation des objets Python
-pydantic==1.10.7
+pydantic==1.10.13
 
 # Bibliothèque pour la sérialisation et la désérialisation des objets Python
 pickle4==0.0.1
@@ -16,13 +16,13 @@ pickle4==0.0.1
 threading==0.0.1
 
 # Bibliothèque pour la gestion des modèles de machine learning
-scikit-learn==1.2.2
+scikit-learn==1.5.1
 
 # Bibliothèque pour la gestion des fichiers joblib
 joblib==1.2.0
 
 # Bibliothèque pour la gestion des modèles de machine learning
-scikit-learn==1.2.2
+scikit-learn==1.5.1
 
 #streamlit
 streamlit==1.440
