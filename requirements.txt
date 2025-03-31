@@ -8,15 +8,6 @@ uvicorn
 pandas
 numpy
 
-# Bibliothèque pour la sérialisation des objets Python
-pydantic
-
-# Bibliothèque pour la sérialisation et la désérialisation des objets Python
-pickle4
-
-# Bibliothèque pour le threading (si nécessaire)
-threading
-
 # Bibliothèque pour la gestion des modèles de machine learning
 scikit-learn
 
